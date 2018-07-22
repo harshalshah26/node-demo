@@ -8,7 +8,8 @@ const port = 3000;
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://harshal:abcdefg123@ds117431.mlab.com:17431/hs-authentication');
+// mongodb://username:password@mongo host:port/DB_NAME
+mongoose.connect('mongodb string');
 
 // body parsers
 app.use(bodyParser.json()); // for parsing application/json
